@@ -17,8 +17,8 @@ JPA 심화 과정에서는 데이터베이스와 객체 지향 프로그래밍 �
 ###  [1. @Transactional 에러 수정](https://github.com/friedSaewoo/spring-plus/wiki/1.-@Transactional-%EC%97%90%EB%9F%AC-%EC%88%98%EC%A0%95)
 ###  [2. JWT에 닉네임 추가](https://github.com/friedSaewoo/spring-plus/wiki/2.-JWT%EC%97%90-%EB%8B%89%EB%84%A4%EC%9E%84-%EC%B6%94%EA%B0%80)
 ###  [3. 할 일 페이징 처리시 검색기능 추가](https://github.com/friedSaewoo/spring-plus/wiki/3.-%ED%95%A0-%EC%9D%BC-%ED%8E%98%EC%9D%B4%EC%A7%95-%EC%B2%98%EB%A6%AC%EC%8B%9C-%EA%B2%80%EC%83%89%EA%B8%B0%EB%8A%A5-%EC%B6%94%EA%B0%80)
-###  [4. ]()
-###  [5. ]()
+###  [4. TodoController 테스트 코드 수정](https://github.com/friedSaewoo/spring-plus/wiki/4.-TodoController-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BD%94%EB%93%9C-%EC%88%98%EC%A0%95)
+###  [5. AOP 수정](https://github.com/friedSaewoo/spring-plus/wiki/5.-AOP-%EC%88%98%EC%A0%95)
 
 # Level 2
 
