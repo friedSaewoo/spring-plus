@@ -22,8 +22,8 @@ JPA 심화 과정에서는 데이터베이스와 객체 지향 프로그래밍 �
 
 # Level 2
 
-###  [6. ]()
-###  [7. ]()
+###  [6. JPA Cascade](https://github.com/friedSaewoo/spring-plus/wiki/6.-JPA-Cascade)
+###  [7. getComments() N+1 문제 해결](https://github.com/friedSaewoo/spring-plus/wiki/7.-getComments()-N-1-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0)
 ###  [8. ]()
 ###  [9. ]()
 
