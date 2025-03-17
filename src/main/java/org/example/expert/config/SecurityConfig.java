@@ -43,7 +43,7 @@ public class SecurityConfig {
                 .rememberMe(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers(request -> request.getRequestURI().startsWith("/auth")).permitAll()
-                        .requestMatchers("/todos").hasAuthority(UserRole.Authority.USER)
+                        .requestMatchers("/todos/**").hasAuthority(UserRole.Authority.USER)
                 )
                 .build();
     }
