@@ -29,7 +29,7 @@ JPA 심화 과정에서는 데이터베이스와 객체 지향 프로그래밍 �
 
 # Level 3
 
-###  [10. QueryDSL 을 사용하여 검색 기능 만들기]()
+###  [10. QueryDSL 을 사용하여 검색 기능 만들기](https://github.com/friedSaewoo/spring-plus/wiki/10.-QueryDSL-%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%EA%B2%80%EC%83%89-%EA%B8%B0%EB%8A%A5-%EB%A7%8C%EB%93%A4%EA%B8%B0)
 ###  [11. Transactional 심화](https://github.com/friedSaewoo/spring-plus/wiki/11.-Transactional-%EC%8B%AC%ED%99%94)
 ###  [12. ]()
 ###  [13. ]()
