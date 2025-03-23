@@ -8,9 +8,12 @@ import org.example.expert.domain.common.dto.AuthUser;
 import org.example.expert.domain.todo.dto.request.TodoSaveRequest;
 import org.example.expert.domain.todo.dto.response.TodoResponse;
 import org.example.expert.domain.todo.dto.response.TodoSaveResponse;
+import org.example.expert.domain.todo.dto.response.TodoSearchDto;
 import org.example.expert.domain.todo.service.TodoService;
+import org.example.expert.domain.user.entity.User;
 import org.example.expert.domain.user.enums.UserRole;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
@@ -48,5 +51,16 @@ public class TodoController {
     @GetMapping("/todos/{todoId}")
     public ResponseEntity<TodoResponse> getTodo(@PathVariable long todoId) {
             return ResponseEntity.ok(todoService.getTodo(todoId));
+    }
+
+    @Secured(UserRole.Authority.USER)
+    @GetMapping("/todos/search")
+    public ResponseEntity<Page<TodoSearchDto>> searchTodos(@RequestParam(required = false) String keyword,
+                                                           @RequestParam(required = false) String nickName,
+                                                           @RequestParam(required = false) LocalDateTime startDate,
+                                                           @RequestParam(required = false) LocalDateTime endDate,
+                                                           Pageable pageable){
+
+        return ResponseEntity.ok(todoService.searchTodo(keyword, nickName, startDate, endDate, pageable));
     }
 }
